@@ -1,0 +1,20 @@
+// https://www.codechef.com/problems/SUNNYDAY
+
+#include <stdio.h>
+
+int main()
+{
+    int X, T;
+    
+    scanf("%d", &T);
+    
+    for(int i=0; i<T; i++){
+        scanf("%d", &X);
+        if(X>24){
+            printf("YES\n");
+        }else{
+            printf("NO\n");
+        }
+    }
+    return 0;
+}
